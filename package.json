@@ -1,0 +1,15 @@
+{
+  "name": "tedy",
+  "version": "1.0.0",
+  "description": "tedy automation",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daisy Lopes da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}
