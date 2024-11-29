@@ -289,3 +289,118 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#planos {
+    background-color: #00B03D;
+    padding: 80px 0 84px 0;
+    background-image: url('../assets/bg-plano.png');
+    background-size: cover;
+    margin-top: 100px;
+}
+
+#planos h1, #overview h1 {
+    font-size: 48px;
+    text-transform: none;
+}
+
+#planos h6 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-plano {
+    padding: 45px;
+    border-radius: 60px;
+    border: none;
+    transition: .15s all linear;
+}
+
+.card-plano:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px 10px rgba(0, 0, 0, .15);
+}
+
+.card-plano .btn {
+    background-color: #000000 !important;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.card-plano ul li {
+    font-weight: 500;
+}
+
+.card-plano ul li + li {
+    margin-top: 5px;
+}
+
+.number-spinner {
+    padding: 6px;
+    border-radius: 100px;
+    border: 3px solid #fff;
+}
+
+.number-spinner input {
+    background: transparent !important;
+    border: none;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0;
+    outline: none !important;
+    box-shadow: none !important;
+    line-height: 1;
+    height: 40px;
+}
+
+.number-spinner .btn-default {
+    background-color: #fff;
+    border-radius: 1000px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    color: #00AF3D;
+    padding: 0;
+}
+
+.btn-mensal-anual .btn {
+    background-color: transparent !important;
+    color: #000;
+    border-color: #000 !important;
+    border-width: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 50px;
+    border-radius: 16px;
+}
+
+.btn-mensal-anual .btn + .btn {
+    margin-left: -3px !important;
+}
+
+.btn-mensal-anual .btn.active {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+#beneficios {
+    margin-top: 100px;
+}
+
+#cards-beneficios {
+    margin: 0px 110px;
+}
+
+#cards-beneficios h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: -85px;
+}
+
